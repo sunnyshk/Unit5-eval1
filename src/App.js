@@ -4,7 +4,7 @@ function App() {
   let [score, setScore] = useState(76);
   let [wicket, setWicket] = useState(2);
   let [overs, setOvers] = useState(8);
-  let [decimal, setDecimal] = useState(0.0);
+  let [decimal, setDecimal] = useState(0.2);
   let showWinner = false;
 
   let addOne = () => {
