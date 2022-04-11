@@ -29,7 +29,7 @@ function App() {
     setScore(score + 6);
   };
   let addWick = () => {
-    if (wicket == 10 || score > 100) {
+    if (wicket == 12 || score > 100) {
       return;
     }
     setWicket(wicket + 1);
